@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Grenze", serif;
+    /* background-color: #F5F7F8; */
+}
+#container{
+    width: 100%;
+    position: relative;
+    height: 60vh;
+
+}
+nav{
+    /* padding: .5px; */
+    /* background-color: #185519; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+   
+}
+
+.link{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+#name{
+    margin-left: 50px;
+    font-size: 100px;
+    color: blueviolet;
+}
+#sub{
+    margin-left: 50px;
+    font-size: 75px;
+}
+#details{
+    line-height: 1.5;
+    margin-bottom: 25px;
+    margin-left:50px ;
+    font-size: 50px;
+}
+
+#down{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    background-color: blueviolet;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+#shape{
+    width: 450px;
+    height: 350px;
+    
+}
+#person{
+    width: 250px;
+    height: 350px;
+    
+}
+
+.home-image{
+    width:45% ;
+    height:80% ;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    top: 120px;
+}
+
+.group1{
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    transition: left 2s, bottom 1s;
+}
+
+.link:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.home-image:hover #person{
+    left: 10%;
+}
+
+.home-image:hover #shape{
+    bottom: 20px;
+}
+
+
+
+#About{
+    
+
+    font-size: 80px;
+    color: blueviolet;
+}
+#introdution{
+    font-family: "Gruppo", sans-serif;
+    
+    font-size: 60px;  
+}
+
+#abtdet{
+    
+    font-size: 30px
+}
+
+#vector{
+margin top:-350px;
+    width: 550px;
+    height: 550px;
+    
+}
+
+.aboutgrp{
+    margin-left: 800px;
+}
+
+
+ .aboutin{
+    text-align: center;
+ }
+
+
+
+
+#Skills{
+    text-align: center;
+    background-color: brown;
+    
+
+
+
+ }
+.main-hd{
+    font-size: 40px;
+    color: blueviolet;
+
+}
+.sub-hd{
+    font-size: 20px;
+    color: brown;
+}
+ 
+
+.skill-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 20px;
+    align-items: center;
+    background-color: rgb(76, 43, 226);
+}
+
+
+.progrss-bar{
+    margin-left: 50px;
+}
+
+.bar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    position: relative;
+}
+
+
+.bar-head, .bar-percentage{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0;
+
+}
+.html-bar{
+    width: 90%;
+    background-color: blueviolet;
+}
+
+
+.css-bar{
+    width: 70%;
+    background-color: blueviolet;
+}
+
+
+.uiux-bar{
+    width: 50%;
+    background-color: blueviolet;
+}
+
+
+.java-bar{
+    width: 00%;
+    background-color: blueviolet;
+}
+
+
+#contact{
+    margin: 8%;
+    text-align: center;
+}
+
+.section-head{
+    font-size: 30px;
+}
+
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    background-color: blueviolet;
+
+
+}
+
+
+.icon:hover{
+
+    background-image: linear-gradient(to bottom right ,white,yellow,orange,red,blue);
+    animation: rotate 2s;
+
+
+}
+
+
+.brand{
+    color: black;
+    font-size: 25px;
+}
+
+.brand:hover{
+    color: white;
+}
+
+.footer-test{
+    text-align: center;
+}
+
+.up-arrow{
+    float: right;
+    margin: -40px 30px 30px 0px;
+
+}
+
+@keyframes rotate{
+    0%{
+        transform:rotate(30deg);
+    }
+
+    25%{
+        transform: rotate(-30deg);
+    }
+
+    40%{
+        transform: rotate(30deg);
+    }
+
+    60%{
+        transform: rotate(-30deg);
+    }
+
+    80%{
+        transform: rotate(30deg);
+    }
+
+    100%{
+        transform: rotate(-30deg);
+    }
+
+
+
+}
